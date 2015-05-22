@@ -534,7 +534,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  angular-rails-templates
+  angular-rails-templates (>= 0.2.0)
   angularjs-rails
   better_errors
   binding_of_caller
