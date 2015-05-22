@@ -1,5 +1,5 @@
 angular
-	.module('eggsApp')
+	.module('eggApp')
 	.controller('EggsController', EggsController);
 
 	EggsController.$inject = ['$http', '$routeParams', '$window'];

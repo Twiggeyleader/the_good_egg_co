@@ -1,1 +1,1 @@
-angular.module('eggsApp', ['templates','ngRoute']);
+angular.module('eggApp', ['templates','ngRoute']);

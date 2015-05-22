@@ -1,3 +1,4 @@
+
 angular.module('eggsApp')
 	.config(['$routeProvider', config]);
 
