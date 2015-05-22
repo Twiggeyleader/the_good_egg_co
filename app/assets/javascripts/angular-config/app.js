@@ -1,0 +1,1 @@
+angular.module('eggsApp', ['templates','ngRoute']);
