@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
   root 'home#index'
   get 'home/index'
+  get '*path' => 'home#index'
 
+  namespace :api do
+    resources :dogs, only:[:index,:show,:update,:create, :destroy]
+  end
+
+  get '*path' => 'home#index'
 
   devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
   # The priority is based upon order of creation: first created -> highest priority.
