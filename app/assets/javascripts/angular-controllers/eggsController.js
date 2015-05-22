@@ -1,8 +1,8 @@
 angular
-	.module('eggsApp')
+	.module('eggApp')
 	.controller('EggsController', EggsController);
 
-	EggsController.$inject = ['$http', '$routeParams', '$windows'];
+	EggsController.$inject = ['$http', '$routeParams', '$window'];
 
 	function EggsController($http, $routeParams, $windows){
 		var self = this;

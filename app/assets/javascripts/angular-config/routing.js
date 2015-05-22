@@ -1,3 +1,6 @@
+angular.module('eggApp')
+	.config(['$routeProvider', config]);
+
 function config($routeProvider){
 	$routeProvider
 	.when('/',{
